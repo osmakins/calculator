@@ -1,0 +1,119 @@
+.container {
+    width: 300px;
+    height: 400px;
+    border: 2px solid black;
+    margin: 50px auto;
+}
+
+.screen {
+    height: 100px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#display {
+    width: 240px;
+    height: 80px;
+    border: none;
+    outline: none;
+    font-size: 32px;
+    text-align: right;
+}
+
+#clear {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 24px;
+    color: white;
+    background-color: red;
+}
+
+.keypad {
+    height: 300px;
+}
+
+.row {
+    height: 25%;
+}
+
+.key {
+    width: 25%;
+    height: 100%;
+    font-size: 24px;
+    color: white;
+    background-color: darkgray;
+
+    /* Use float to align the buttons in rows and columns */
+    float: left;
+
+}
+
+.key:hover {
+    background-color: gray;
+}
+
+.key:active {
+    background-color: black;
+}.container {
+    width: 300px;
+    height: 400px;
+    border: 2px solid black;
+    margin: 50px auto;
+}
+
+.screen {
+    height: 100px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#display {
+    width: 240px;
+    height: 80px;
+    border: none;
+    outline: none;
+    font-size: 32px;
+    text-align: right;
+}
+
+#clear {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 24px;
+    color: white;
+    background-color: red;
+}
+
+.keypad {
+    height: 300px;
+}
+
+.row {
+    height: 25%;
+}
+
+.key {
+    width: 25%;
+    height: 100%;
+    font-size: 24px;
+    color: white;
+    background-color: darkgray;
+
+    /* Use float to align the buttons in rows and columns */
+    float: left;
+
+}
+
+.key:hover {
+    background-color: gray;
+}
+
+.key:active {
+    background-color: black;
+}
